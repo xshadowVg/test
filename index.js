@@ -8,6 +8,8 @@ const port = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
+    console.log("some one here");
+
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
