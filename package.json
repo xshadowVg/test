@@ -1,16 +1,12 @@
 {
   "name": "hasanexample",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple static site for Cloudflare Pages",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "mkdir -p dist && cp -r public/* dist/"
+    "build": "echo 'Nothing to build'"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2"
-  }
+  "license": "ISC"
 }
